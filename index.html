@@ -1,0 +1,1544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviewer</title>
+</head>
+
+<body>
+  <style>
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    body {
+      font-family: sans-serif;
+      place-items: center;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      max-width: 700px;
+    }
+
+    .answer-key {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .sj-text-quiz-question {
+      font-weight: bold;
+      font-size: 12px;
+    }
+
+    .answer.incorrect>span {
+      color: #8a8a8a;
+      text-decoration: line-through;
+      font-weight: normal;
+    }
+
+    .answer.correct>span {
+      color: #008b21e7;
+      font-weight: bold;
+    }
+
+    .large-5.push-4.columns {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .show-question {
+      border-bottom: 1px solid gray;
+      padding: 0 0 1rem 0;
+    }
+  </style>
+  <main>
+    <h2>Shopify Development Fundamentals Assessment Ariel's Reviewer</h2>
+    <div class="answer-key">
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 1:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>Which of the following statement is true about this product?
+              <br><br><strong>Regular t-shirt </strong><br>Sizes available: Small, Medium, Large
+              <br>Colors available: Red, Green, Blue <br><br>Select the correct answer.&nbsp;
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">The product has 9 options and 2 variants</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">The product has 2 options and 6 variants</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">The product has 3 options and 9 variants</span>
+            </div>
+            <div class="answer correct">
+              <span class="answer-text">The product has 2 options and 9 variants</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 2:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>What is the primary purpose of using {% schema %} in a Liquid file?
+              <br><br>Select the correct answer.&nbsp;
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">To provide a method to inject custom code</span>
+            </div>
+
+            <div class="answer incorrect">
+              <span class="answer-text">To create a JSON structure for the page</span>
+            </div>
+
+            <div class="answer correct">
+              <span class="answer-text">To define section attributes, like name, blocks, and settings</span>
+            </div>
+
+            <div class="answer incorrect">
+              <span class="answer-text">To define the structure of data for the theme
+                settings</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 3:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>A client who runs a large ecommerce store wants to implement a loyalty program
+              for their customers. They need a dedicated page within the customer account
+              section where customers can view their loyalty points, redeem rewards, and track
+              their progress. The client also wants to ensure that this page is easy to manage
+              and update. Which approach would be the best solution to implement the loyalty
+              program? <br><br>Select the correct answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">Develop a Custom App: Create a custom app that adds a loyalty program page to
+                the customer accounts section.</span>
+            </div>
+
+            <div class="answer incorrect">
+              <span class="answer-text">Use Inline Extensions: Add UI elements such as an Order index to the customer
+                accounts page.</span>
+            </div>
+
+            <div class="answer correct">
+              <span class="answer-text">Use Full Page Extensions: Create a full page extension to add a loyalty program
+                page to the customer accounts section.</span>
+            </div>
+
+            <div class="answer incorrect">
+              <span class="answer-text">Use Embedded Admin Apps: Embed an app in the Shopify Admin that displays a
+                customer's loyalty points.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 4:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>Where would you typically find static content like images, JavaScript, and CSS files in a Shopify theme’s
+              file structure? <br><br>Select the correct answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">In the /layout folder</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">In the /snippets folder</span>
+            </div>
+            <div class="answer correct">
+              <span class="answer-text">In the /assets folder</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">In the /locales folder</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 5:</span>
+            <div class="large-5 pull-3 columns">
+              <p>Which API is typically used for managing inventory, updating order statuses, and creating custom
+                reports in Shopify? <br><br>Select the correct answer.&nbsp;</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-5 push-4 columns">
+              <div class="answer correct">
+                <span class="answer-text">Admin API</span>
+              </div>
+              <div class="answer incorrect">
+                <span class="answer-text">Customer Account API</span>
+              </div>
+              <div class="answer incorrect">
+                <span class="answer-text">Storefront API</span>
+              </div>
+              <div class="answer incorrect">
+                <span class="answer-text">Payments Apps API</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 6:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>When making API calls, you noticed that the data returned has some missing data fields compared to the
+              Shopify developer documentation. What might be the cause of this? <br><br>Select the correct answer.&nbsp;
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer correct">
+              <span class="answer-text">You are using an outdated version of the API</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Your subscription plan has expired</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">You should have used webhooks instead</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">You have reached the API rate limits</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 7:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>You are working with a client who wants to integrate their Shopify store with an external system to
+              synchronize customer data. You are building out a minimum viable product and would like to test out the
+              connection. Which approach would be the best solution to meet the client's requirements? <br><br>Select
+              the correct answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer correct">
+              <span class="answer-text">Use server-only apps: Develop a server-only app to synchronize customer data
+                between Shopify and the external system.</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Use Point of Sale (POS) UI Extension: Collect customer information before
+                syncing to the external system.</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Use Web Pixels: Collect customer information to sync with the external
+                system.</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Use theme app extensions: Add dynamic elements without Liquid templates to sync
+                customer information.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 8:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>How does Shopify's platform support developers who create custom solutions for brands?</p>
+            <p>Select the correct answer.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">By focusing on no-code solutions only, reducing complexity in
+                development.</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">By requiring developers to use Ruby on Rails and Remix framework.</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">By emphasizing custom-coding for many aspects of Shopify, creating a range of
+                development opportunities.</span>
+            </div>
+            <div class="answer correct">
+              <span class="answer-text">By offering a range of developer tools to scaffold apps and themes.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 9:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>Your client would like to create a data model that contains the following
+              fields:<br><br>- `category` (Text: e.g., "shoes", "shirts", "pants") <br>-
+              `measurements` (JSON: size chart data) <br>- `instructions` (Rich Text)
+              <br><br>The fields above will be assigned to each product based on its category.
+              For example, all items in the "pants" category will have the "pants" size chart.
+              Which of the following is the best method of implementation? Select the correct
+              answer.&nbsp;
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">Metafields</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Metatags</span>
+            </div>
+            <div class="answer correct">
+              <span class="answer-text">Metaobjects</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Meta description</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 10:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>Which of the following field values would be most likely to be found on the fulfillment object?
+              <br><br>Select the correct answer.&nbsp;
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">$10, $25, $50, and $100 gift cards</span>
+            </div>
+            <div class="answer correct">
+              <span class="answer-text">Snow City Warehouse</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Snow Ryder Pro Snowboard</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Snowboarding Gear &amp; Equipment</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 11:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>Which of the following business types is the best use case for these objects?</p>
+            <table style="border-collapse: collapse; width: 99.9396%; height: 137.711px;" border="1">
+              <tbody>
+                <tr style="height: 137.711px;">
+                  <td style="width: 99.9617%; height: 137.711px;">
+                    <p><span style="font-size: 12pt;">- The `company` Liquid object represents a
+                        company that a customer is purchasing for. </span></p>
+                    <p><span style="font-size: 12pt;">- The `company_location` Liquid object
+                        represents a location of the company that a customer is purchasing
+                        for.&nbsp;</span></p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p>Select the correct answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer correct">
+              <span class="answer-text">An eyewear company that is supplying eyewear to major retail stores and
+                optometrists</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">A taco truck that moves around a city and posts their location to their 100K
+                followers on TikTok</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">A mattress company that sells directly to consumers and offers a 100-night trial
+                period for their mattresses</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">A pop-up ceramic store running a booth at the weekend art fair</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 12:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>What is the function of "blocks" within Shopify's theme architecture? <br><br>Select the correct
+              answer.&nbsp;
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer correct">
+              <span class="answer-text">To create reusable portions of code and content within sections</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">To create customizable modules of content that merchants can add to JSON
+                templates</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">To act only as a wrapper for sections</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">To host repeated theme elements like headers and footers</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 13:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p><span style="font-weight: 400;">For a theme that is using Online Store 2.0
+                features, how would you include a section called "collection-banner" in a
+                collection page template?</span><br><br>Select the correct answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer correct">
+              <span class="answer-text">By adding `{"sections": {"type": "collection-banner"}}` in the collection.json
+                template</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">By adding `{{ 'collection-banner' | render }}` in the collection.liquid
+                file</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">By using the `{% include 'sections/collection-banner' %}` tag in the
+                collection.json template</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">By adding `&lt;section id="collection-banner"&gt;&lt;/section&gt;` directly in
+                the collection.html file.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 14:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>Which of the following is a key advantage of using webhook subscriptions over continuous polling?
+              <br><br>Select the correct answer.&nbsp;
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer ">
+              <span class="answer-text">Increased dependency on external servers</span>
+            </div>
+            <div class="answer ">
+              <span class="answer-text">Reduced server load and API rate limiting</span>
+            </div>
+            <div class="answer ">
+              <span class="answer-text">Capturing larger and more complex datasets</span>
+            </div>
+            <div class="answer ">
+              <span class="answer-text">Reduced need for persistent internet connection</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 15:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>What is the role of "objects" in Liquid? <br><br>Select the correct answer.&nbsp; </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">To query for Shopify server-side data</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">To store user authentication and session information</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">To handle payment processing for online transactions</span>
+            </div>
+            <div class="answer correct">
+              <span class="answer-text">To represent Shopify data entities that can be surfaced in the storefront</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 16:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>You are a Shopify developer working with a wholesale supplier who wants to
+              display exclusive content to business customers. Given the client's requirements,
+              which Liquid tag would be most appropriate to use for implementing the solution?
+              <br><br>Select the correct answer.&nbsp;
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">{%- if pick_up_availabilities.size &gt; 0 -%} &lt;!--content&gt; {% endif
+                %}</span>
+            </div>
+            <div class="answer correct">
+              <span class="answer-text">{% if customer.b2b? %} &lt;!--content&gt; {% endif %}</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">{% if localization.available_countries.size &gt; 1 %}
+                &lt;!--content&gt; {% endif %}</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">{% if recommendations.intent == 'related' %}&lt;!--content&gt; {% endif
+                %}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 17:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>What is the difference between the theme editor and the web code editor?
+              <br><br>Select the correct answer.&nbsp;
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">The theme editor manages the online store's experience while the web editor
+                manages the theme app extensions.</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">The theme editor allows merchants to upload products and manage collections,
+                while the web code editor is for configuring product pages.</span>
+            </div>
+            <div class="answer correct">
+              <span class="answer-text">The theme editor provides a graphical user interface to edit the theme while the
+                web code editor is used to edit the theme's JSON and Liquid code.</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">The theme editor is used for publishing blog posts while the web editor is used
+                for managing the theme's code.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 18:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p><span style="font-weight: 400;">You are freelancing for a small business with
+                limited technical expertise and a tight budget. They need an ecommerce platform
+                with minimal maintenance and built-in commerce functionality. </span>Why might
+              Shopify be a suitable choice for this small business?</p>
+            <p>Select the correct answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer correct">
+              <span class="answer-text">Shopify provides built-in commerce functionality that covers all essential needs
+                for running an online store.</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Shopify offers a wide range of custom coding options that require extensive
+                technical knowledge.</span>
+            </div>
+
+            <div class="answer incorrect">
+              <span class="answer-text">Shopify can be used in conjunction with external systems for powering inventory,
+                product, and order management, which smaller businesses often have.</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Businesses can host their own instance of Shopify's admin, enabling it to be a
+                cost-effective option for merchants with smaller budgets.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 19:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>In the Shopify theme architecture, which file type is used to configure settings
+              that merchants can adjust in the Shopify admin? <br><br>Select the correct
+              answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer correct">
+              <span class="answer-text">config/settings_schema.json</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">assets/settings.css</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">locales/settings_data.json</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">snippets/settings.liquid</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 20:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>A client is interested in a new feature in beta released at the latest Editions.
+              They've asked you to demo it for them over a 15 min video call. Which settings
+              would you choose when creating a development store to demo the new feature?
+              <br><br>Select the correct answer.&nbsp;
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">Create a store to test and build with "current release" checked</span>
+            </div>
+            <div class="answer correct">
+              <span class="answer-text">Create a store to test and build with "developer preview" checked</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Create a store for a client with "selling in person" checked</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Create a store for a client with "selling online" checked</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 21:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>You are a Shopify developer working with a client who runs a mid-sized ecommerce
+              store. The client has specific requirements for their store's functionality that
+              are not fully met by the core Shopify platform. They need an app that can
+              integrate with their existing Customer Relationship Management (CRM) system and
+              provide advanced analytics on customer behavior. The client is also concerned
+              about data security and wants to ensure that any app used is reliable and
+              well-supported. Given the client's requirements and concerns, which option would
+              be the best and most effective approach to meet their needs? <br><br>Select the
+              correct answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer correct">
+              <span class="answer-text">Search for a Public App: Browse the Shopify App Store to
+                find a public app that meets the client's requirements. Public apps are reviewed
+                by Shopify, ensuring quality and security, and are maintained and updated by
+                third-party developers.</span>
+            </div>
+
+            <div class="answer incorrect">
+              <span class="answer-text">Use a Draft App: Develop a draft app with the required
+                features and install it on the client's development store. This will allow you
+                to test the app's functionality before finalizing it.</span>
+            </div>
+
+            <div class="answer incorrect">
+              <span class="answer-text">Develop a Custom App: Create a custom app specifically
+                tailored to the client's needs. This app will integrate with their CRM system
+                and provide the required analytics. Since it is built for a single client, it
+                will not be reviewed by Shopify and will not be listed on the Shopify App
+                Store.</span>
+            </div>
+
+            <div class="answer incorrect">
+              <span class="answer-text">Develop an In-House Custom App: Advise the client to
+                develop their own custom app in-house. This app will primarily be used to
+                transfer data via APIs and provide the necessary analytics.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 22:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>What is the primary function of the Shopify Admin? <br><br>Select the correct
+              answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">To handle shipping and fulfillment logistics</span>
+            </div>
+            <div class="answer correct">
+              <span class="answer-text">To manage core aspects of a Shopify business</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">To set store details like currencies, time zones, and contact information</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">To handle customer service inquiries</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 23:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>Your client wants to implement BOPIS (buy online, pick up in-store) as a selling
+              strategy. Which of the following Liquid object is most relevant to building out an
+              online store solution for this merchant? <br><br>Select the correct answer.&nbsp;
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">`market` object: A group of one or more regions of the world that a merchant is
+                targeting for sales.</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">`fulfillment` object: An order fulfillment, which includes information like the
+                line items being fulfilled and shipment tracking.</span>
+            </div>
+            <div class="answer correct">
+              <span class="answer-text">`store_availability` object: A variant's inventory information for a physical
+                store location.</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">`address` object: An address, such as a customer address or order shipping
+                address.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 24:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>What are the two types of collections you can create in Shopify? <br><br>Select the correct answer.&nbsp;
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer correct">
+              <span class="answer-text">Automated and Manual</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Basic and Advanced</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Static and Dynamic</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Predefined and Custom</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 25:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>Where are metaobjects definitions typically managed in a Shopify store? <br><br>Select the correct
+              answer.&nbsp;
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer correct">
+              <span class="answer-text">In the Shopify admin under Settings</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">In the HTML &lt;head&gt; section</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">In external SEO tools</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">In the product description field</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 26:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p><span style="font-size: 12pt;">Which of the following is the correct GraphQL
+                structure to create a catalog and why?&nbsp;</span></p>
+            <p>
+              <img src="./assets/instructor_dr6brnbds8xq7iq3gho1wr9ht_public_1718202379_q58.1718202379246.png"
+                alt="">
+            </p>
+            <p><span style="font-size: 12pt;">We have provided a section of the Shopify
+                developer documentation to guide you.</span></p>
+            <table style="border-collapse: collapse; width: 100.062%;" border="1">
+              <tbody>
+                <tr>
+                  <td style="width: 99.8362%;">
+                    <p><span style="font-size: 12pt;">`catalogCreate` - mutation </span></p>
+                    <p><span style="font-size: 12pt;">Arguments: - `input`: required </span></p>
+                    <p><span style="font-size: 12pt;">CatalogCreatePayload returns
+                      </span><br><span style="font-size: 12pt;">- `catalog` </span><br><span style="font-size: 12pt;">-
+                        `userErrors`</span></p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p>Select the correct answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer correct">
+              <span class="answer-text">Snippet A, because the mutation returns a payload that
+                includes `catalog` and `userErrors`.</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Snippet B, because the mutation includes `catalog` and `userErrors` within the
+                input argument.</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Snippet C, because the mutation returns `catalog` and `userErrors` outside the
+                payload.</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Snippet D, because `catalog` is part of the input argument.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 27:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>What is the primary role of the `templates` directory in Shopify's theme
+              architecture? <br><br>Select the correct answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer correct">
+              <span class="answer-text">To hold files that define the structure of different types of pages of the
+                store</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">To allow merchants with no code experience to customize the theme</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">To manage Shopify theme settings and configurations</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">To host repeatable elements like headers and footers</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 28:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>You are working with a high-end clothing business that wants to offer two types
+              of plans: "Try Before You Buy" and "Pre-order". Which Liquid object would you
+              interact with to implement the solution? <br><br>Select the correct answer.&nbsp;
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">`shop`: Information about the store, such as the store address, the total number
+                of products, and various settings</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">`shipping_method`: Information about the shipping method for an order</span>
+            </div>
+            <div class="answer correct">
+              <span class="answer-text">`selling_plan_group`: Information about a specific group of selling plans that
+                include any of a product's variants</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">`transaction`: A transaction associated with a checkout or order</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 29:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>Which of the following fits into the blank space in the query?</p>
+            <p><img
+                src="./assets/instructor_dr6brnbds8xq7iq3gho1wr9ht_public_1718200624_question+56png.1718200624840.png"
+                alt="" width="437" height="280"></p>
+            <p>Select the correct answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">`first: 20`</span>
+            </div>
+
+            <div class="answer correct">
+              <span class="answer-text">`id: "gid://shopify/Product/10079785100"`</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">`input: { title: "Sweet new product", productType: "Snowboard", vendor:
+                "JadedPixel" }`</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">`before: 5`</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 30:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>Which Shopify primitive would you expect to contain the following
+              information?&nbsp;</p>
+            <p><img
+                src="./assets/instructor_dr6brnbds8xq7iq3gho1wr9ht_public_1718199034_question+38.1718199034759.png"
+                alt=""></p>
+            <p>Select the correct answer.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">`shipping_method`: Information about the shipping method for an order</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">`shop_locale`: A language in a store</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">`policy`: A store policy</span>
+            </div>
+            <div class="answer correct">
+              <span class="answer-text">`market` object: A group of one or more regions of the world that a merchant is
+                targeting for sales</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 31:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>Which object in Shopify's data model contains information about buyers who create
+              accounts or make purchases? <br><br>Select the correct answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">Collections</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Orders</span>
+            </div>
+            <div class="answer correct">
+              <span class="answer-text">Customers</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Locations</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 32:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>Which of the following statements best describes the difference between custom
+              apps and public apps in Shopify? <br><br>Select the correct answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">Custom apps are reviewed by Shopify and can be listed on
+                the Shopify App Store, while public apps are not reviewed by Shopify and are
+                built for a single client.</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Custom apps are built for internal testing only, while
+                public apps are apps that are deployed to production environments.</span>
+            </div>
+            <div class="answer correct">
+              <span class="answer-text">Custom apps are built for a single client and are not
+                reviewed by Shopify, while public apps must be reviewed by Shopify and can be
+                listed on the Shopify App Store for anyone to install.</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Custom apps are maintained and updated by third-party
+                developers, while public apps are always built by Shopify.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 33:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>You have created a development store for a new apparel client by selecting
+              “Create a store for a client” and have uploaded Shopify’s dummy apparel data via
+              CSV to give the client a sense of their store’s new look and feel. You’ve given
+              the store a placeholder name for the time being. Is the development store
+              transferable? <br><br>Select the correct answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">Yes, because you selected “create a store for a client”
+                when creating the store.</span>
+            </div>
+
+            <div class="answer incorrect">
+              <span class="answer-text">Yes, because you’ve selected “create a store for a
+                client” when creating the store and uploaded product information via CSV.</span>
+            </div>
+
+            <div class="answer incorrect">
+              <span class="answer-text">No, because you have selected “create a store for a
+                client” but have chosen a placeholder name for the store.</span>
+            </div>
+
+            <div class="answer correct">
+              <span class="answer-text">No, because you have uploaded Shopify’s dummy data to
+                the store.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 34:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>Claudesco sells thousands of replacement parts for manufacturing equipment.
+              Buyers need to reference product compatibility to ensure they’re ordering the
+              correct replacements. Claudesco stores part compatibility information in a
+              database. Which method would let Claudesco display this information on a product
+              page most effectively? <br><br>Select the correct answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">Shopify Functions</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Product.liquid templates</span>
+            </div>
+            <div class="answer incorrect">
+              <span class="answer-text">Line item properties</span>
+            </div>
+            <div class="answer correct">
+              <span class="answer-text">Metafields and metaobjects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 35:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>Your client owns an olive oil business. As they are expanding their ecommerce
+              business, they would like to include the olive tree farm that every product is
+              sourced from on the product details page. The following is how the product details
+              page will display: <br><br><strong>Premium Cold-Pressed Olive Oil</strong>
+              <br><span style="text-decoration: underline;">Sourced from:</span> <br>Name:
+              Laurel Grove Olive Farm <br>Location: Sonoma Valley, California, USA
+              <br>Sustainability practice: <br>- Organic farming <br>- Water conservation <br>-
+              Renewable energy <br><br>How would you implement the solution? Select the correct
+              answer.&nbsp;
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">Create a metafield named Farm with the fields `name`,
+                `location` and `sustainability practice`. Then, create an entry for Laurel Grove
+                Olive Farm for the Farm metafield.</span>
+            </div>
+
+            <div class="answer incorrect">
+              <span class="answer-text">Create a metafield named Source with the fields `name`,
+                `location` and `sustainability practice`. Then, create an entry for Laurel Grove
+                Olive Farm for the Source metafield.</span>
+            </div>
+
+            <div class="answer correct">
+              <span class="answer-text">Create a metaobject definition named Farm with the
+                fields `name`, `location` and `sustainability practice`. Then, create an entry
+                for Laurel Grove Olive Farm for the Farm metaobject.</span>
+            </div>
+
+            <div class="answer incorrect">
+              <span class="answer-text">Create a metafield named Laurel Grove Olive Farm. Then,
+                create a Farm metaobject definition with the fields `Sonoma Valley`, `Organic
+                Farming`, `Water Conservation`, and `Renewable Energy`.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 36:</span </div>
+            <div class="large-5 pull-3 columns">
+              <p>In which of the following scenarios would using the API be more advantageous than
+                using webhooks? <br><br>Select the correct answer.&nbsp;</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-5 push-4 columns">
+
+
+              <div class="answer incorrect">
+                <span class="answer-text">Updating an external inventory management system
+                  whenever the inventory levels have changed</span>
+              </div>
+
+              <div class="answer incorrect">
+                <span class="answer-text">Send a follow-up email reminding customers of their
+                  abandoned cart</span>
+              </div>
+
+              <div class="answer correct">
+                <span class="answer-text">Build reports with historical sales, order, and customer
+                  data from Shopify</span>
+              </div>
+
+              <div class="answer incorrect">
+                <span class="answer-text">Sending a confirmation email or SMS to the customer when
+                  an order has been successfully placed</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 37:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>What is the primary purpose of using app proxies in Shopify? <br><br>Select the
+              correct answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer ">
+              <span class="answer-text">To route incoming requests from a merchant's store to an
+                app to display data on a store from an external source</span>
+            </div>
+
+            <div class="answer ">
+              <span class="answer-text">To mask PII when processing payment information to
+                protect customers' privacy</span>
+            </div>
+
+            <div class="answer ">
+              <span class="answer-text">To automate repeatable tasks using Shopify Flow to
+                improve the merchants' productivity</span>
+            </div>
+
+            <div class="answer ">
+              <span class="answer-text">To distribute incoming traffic across multiple external
+                servers to balance the load and improve the store's performance</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 38:</span </div>
+            <div class="large-5 pull-3 columns">
+              <p>Which directory in a Shopify theme is responsible for managing localization files
+                like translated content? <br><br>Select the correct answer.&nbsp;</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-5 push-4 columns">
+
+              <div class="answer incorrect">
+                <span class="answer-text">/layout</span>
+              </div>
+
+              <div class="answer incorrect">
+                <span class="answer-text">/config</span>
+              </div>
+
+              <div class="answer incorrect">
+                <span class="answer-text">/scripts</span>
+              </div>
+
+              <div class="answer correct">
+                <span class="answer-text">/locales</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 39:</span </div>
+            <div class="large-5 pull-3 columns">
+              <p>If you are building a headless commerce solution where Shopify is used as the
+                backend, which API would you use to create a custom, unique shopping experience
+                for the customers? <br><br>Select the correct answer.&nbsp;</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-5 push-4 columns">
+              <div class="answer correct">
+                <span class="answer-text">Storefront API</span>
+              </div>
+              <div class="answer incorrect">
+                <span class="answer-text">Ajax API</span>
+              </div>
+              <div class="answer incorrect">
+                <span class="answer-text">Admin API</span>
+              </div>
+              <div class="answer incorrect">
+                <span class="answer-text">Payments Apps API</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 40:</span </div>
+            <div class="large-5 pull-3 columns">
+              <p><span style="font-weight: 400;">Which request type in REST is similar to a query in
+                  GraphQL?</span><br><br>Select the correct answer.&nbsp;</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-5 push-4 columns">
+              <div class="answer incorrect">
+                <span class="answer-text">`DELETE`</span>
+              </div>
+
+              <div class="answer incorrect">
+                <span class="answer-text">`PUT`</span>
+              </div>
+
+              <div class="answer correct">
+                <span class="answer-text">`GET`</span>
+              </div>
+
+              <div class="answer incorrect">
+                <span class="answer-text">`POST`</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 41:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>What is the primary difference between continuous polling and webhook
+              subscriptions? <br><br>Select the correct answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer ">
+              <span class="answer-text">Continuous polling pushes updates to your app
+                immediately.</span>
+            </div>
+
+            <div class="answer ">
+              <span class="answer-text">Webhook subscriptions require your app to repeatedly
+                request updates.</span>
+            </div>
+
+            <div class="answer ">
+              <span class="answer-text">Continuous polling requires you to request updates at
+                regular intervals.</span>
+            </div>
+
+            <div class="answer ">
+              <span class="answer-text">Webhook subscriptions pull updates only when manually
+                triggered.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 42:</span </div>
+            <div class="large-5 pull-3 columns">
+              <p>What is a typical use case for Liquid? <br><br>Select the correct answer.&nbsp;
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-5 push-4 columns">
+              <div class="answer incorrect">
+                <span class="answer-text">To customize the Shopify admin with app
+                  extensions</span>
+              </div>
+
+              <div class="answer correct">
+                <span class="answer-text">To dynamically display store content on a Shopify
+                  storefront</span>
+              </div>
+
+              <div class="answer incorrect">
+                <span class="answer-text">To manage international shipping rates, logistics, and
+                  tax laws</span>
+              </div>
+
+              <div class="answer incorrect">
+                <span class="answer-text">To provide a no-code experience for merchants with no
+                  development background</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 43:</span>
+            <div class="large-5 pull-3 columns">
+              <p>What is the purpose of the "sections" in Shopify themes? <br><br>Select the
+                correct answer.&nbsp;</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-5 push-4 columns">
+
+
+              <div class="answer correct">
+                <span class="answer-text">To enable merchants to customize different parts of a
+                  page independently</span>
+              </div>
+
+              <div class="answer incorrect">
+                <span class="answer-text">To provide additional storage space for product images
+                  and media files</span>
+              </div>
+
+              <div class="answer incorrect">
+                <span class="answer-text">To host smaller reusable snippets of code</span>
+              </div>
+
+              <div class="answer incorrect">
+                <span class="answer-text">To divide the Shopify dashboard into different
+                  areas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 44:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>Which of the following is the correct GraphQL structure to query a product and
+              why?&nbsp;</p>
+            <p><img src="./assets/instructor_dr6brnbds8xq7iq3gho1wr9ht_public_1718203351_q59.1718203350929.png"
+                alt=""></p>
+            <p>We have provided a section of Shopify developer documentation to help you answer
+              this question:</p>
+            <table style="border-collapse: collapse; width: 100.062%;" border="1">
+              <tbody>
+                <tr>
+                  <td style="width: 99.8362%;"><span style="font-size: 12pt;"><strong>`Product`
+                      </strong>- object </span><br><br><span style="font-size: 12pt;"><strong>Fields</strong>
+                    </span><br><span style="font-size: 12pt;">- `handle` - String! </span><br><span
+                      style="font-size: 12pt;">- `title` - String! </span><br><br><span
+                      style="font-size: 12pt;"><strong>Connections</strong> </span><br><span style="font-size: 12pt;">-
+                      `collections` - [Collection!]!</span></td>
+                </tr>
+              </tbody>
+            </table>
+            <p>Select the correct answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+            <div class="answer incorrect">
+              <span class="answer-text">Snippet D, because the `collections` connection should
+                be nested within the `product` object.</span>
+            </div>
+
+            <div class="answer incorrect">
+              <span class="answer-text">Snippet A, because it queries for the fields in edges
+                within a connection, and it has the correct arguments for the `product` object
+                and `collections` connection.</span>
+            </div>
+
+            <div class="answer incorrect">
+              <span class="answer-text">Snippet C, because it queries for the fields in nodes
+                within a connection, and it has the correct arguments for the `product` object
+                and `collections` connection.</span>
+            </div>
+
+            <div class="answer correct">
+              <span class="answer-text">Snippet B, because it queries for the fields in nodes
+                within a connection, and it has the correct arguments for the `product` object
+                and `collections` connection.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-question">
+        <div class="row">
+          <div class="large-4 columns">
+            <span class="sj-text-quiz-question">Question 45:</span>
+          </div>
+          <div class="large-5 pull-3 columns">
+            <p>Which of the following links the `collections` node to the `collections`
+              connection?</p>
+            <p>Select the correct answer.&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-5 push-4 columns">
+
+            <div class="answer ">
+              <span class="answer-text">edge</span>
+            </div>
+
+            <div class="answer ">
+              <span class="answer-text">object</span>
+            </div>
+
+            <div class="answer ">
+              <span class="answer-text">input object</span>
+            </div>
+            <div class="answer ">
+              <span class="answer-text">enum</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
